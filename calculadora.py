@@ -3,13 +3,17 @@ b = int(input("digite outro numero: "))
 
 controle = True
 
+def somar(a,b):
+    a+b 
+    print ()
+
 while controle == True:
     print ("digite uma opçao: 0 - sair \n 1 - soma: \n 2 - subtraçao: \n 3 - multiplicaçao: \n 4 - divisao: ")
     opcao = input ("")
     if opcao == ("0"):
         controle = False
     if opcao == ("1"):
-        print ("resultado: ", a + b)
+        somar(a,b)
     if opcao == ("2"):
         print ("resultado", a - b)
     if opcao == ("3"):
